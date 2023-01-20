@@ -40,5 +40,5 @@ Is placed on the node. Main tasks:
 5. Kube Proxy
 Internal virual network that gives connectivity between all PODs in a cluster. 
 Kube proxy is a process that lives in each node in a cluster. It's looking for a new services, 
-and creates appropiate rules on each node  to forward traffic to those services using e.g IP Tables rules. 
+and creates appropiate rules on each node  to forward traffic to those services using e.g IP Tables rules on each node
 
