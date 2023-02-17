@@ -21,3 +21,19 @@ spec:
     selector:
         app: my-app
 ```
+
+### Cluster IP
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+    name: my-service
+spec:
+    type: ClusterIP
+    ports:
+    - targetPort: 80
+        port: 80
+    selector:
+        app: my-app
+```
